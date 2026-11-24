@@ -12,7 +12,7 @@ Please make sure that the following is installed:
 2. Under Name, enter Mingmong. Then, under User Info, enter the default SYSTEM account and the password that was set during installation.
 3. Open the provided schema.sql file. Select your active database connection from the top-right menu in the SQL worksheet, then click Run Script to create the required tables.
 4. Run the command `COMMIT;` to save the changes.
-5. To verify that all three tables were created please run:
+5. To verify that all three tables were created, please run:
 ```
 SELECT table_name FROM user_tables WHERE table_name IN ('PLAYERS', 'MATCHES', 'ROUNDS');.
 ```
