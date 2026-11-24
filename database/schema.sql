@@ -36,7 +36,7 @@ INCREMENT BY 1
 NOCACHE;
 
 CREATE TABLE Rounds (
-    round_id NUMBER(10) DEAFULT seq_round_id.NEXTVAL PRIMARY KEY,
+    round_id NUMBER(10) DEFAULT seq_round_id.NEXTVAL PRIMARY KEY,
     match_id NUMBER(10) NOT NULL,
     round_number NUMBER(10) NOT NULL,
     player_1_score NUMBER(10) DEFAULT 0,
