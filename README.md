@@ -22,7 +22,7 @@ Open the JDBC.java file and write:
    ```
 private static final String URL = "jdbc:oracle:thin:@//localhost:1521/XEPDB1";
 private static final String USER = "system";
-private static final String PASSWORD = "Your_oracle_password";
+private static final String PASSWORD = "password";
    ```
 
-Note: Replace “Your_oracle_password” with your actual password in Oracle.
+Note: Replace “password” with your actual password in Oracle.
