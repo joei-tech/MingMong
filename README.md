@@ -1,7 +1,7 @@
 # Setup Guide (README)
 ## Prerequisites
 Please make sure that the following is installed:
-- JDK 26 (java -version)
+- JDK 26 (`java -version`)
 - Netbeans IDE
 - Oracle Database XE 21c
 - Oracle JDBC driver ojdbc11.jar
