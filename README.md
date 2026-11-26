@@ -8,7 +8,7 @@ Please make sure that the following is installed:
 - Oracle SQL developer running on localhost:1521
 
 ## Database Setup
-1. Run Oracle SQL Developer and create a new database connection.
+1. Run **Oracle SQL Developer** and create a new database connection.
 2. Under Name, enter Mingmong. Then, under User Info, enter the default SYSTEM account and the password that was set during installation.
 3. Open the provided schema.sql file. Select your active database connection from the top-right menu in the SQL worksheet, then click Run Script to create the required tables.
 4. Run the command `COMMIT;` to save the changes.
@@ -28,13 +28,10 @@ private static final String PASSWORD = "password";
 Note: Replace “password” with your actual password in Oracle.
 
 # Build and run 
-- In GitHub, click Code then download ZIP file, then extract the downloaded folder on your computer.
-- In Apache Netbeans, go to File > Open Project, then select the extracted folder
-- Then in Apache NetBeans, go to MingMong, then right-click on the project and select: Clean and Build.  
-- Then right-click on the project and select Run to open the application.
+- In GitHub, click **<>Code** to download the **ZIP file**, then extract the downloaded folder on your computer.
+- In **Apache Netbeans**, go to **File > Open Project**, then select the extracted folder
+- When you have MingMong, right-click on the project and select: **Clean and Build**.  
+- Then right-click on the project and select **Run** to open the application.
 
 Make sure to use this main class: 
-Package florante.mingmong; 
-
-Expected result: 
-The MingMong welcome screen opens.
+`Package florante.mingmong;`
