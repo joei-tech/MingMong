@@ -28,12 +28,10 @@ private static final String PASSWORD = "password";
 Note: Replace “password” with your actual password in Oracle.
 
 # Build and run 
-- In GitHub, click Code then download ZIP file, then extract the downloaded folder on your computer. 
+- In GitHub, click Code then download ZIP file, then extract the downloaded folder on your computer.
+- In Apache Netbeans, go to File > Open Project, then select the extracted folder
 - Then in Apache NetBeans, go to MingMong, then right-click on the project and select: Clean and Build.  
-   Expected result: 
-   BUILD SUCCESS
-
-- Then right-click on the project and select: Run 
+- Then right-click on the project and select Run to open the application.
 
 Make sure to use this main class: 
 Package florante.mingmong; 
